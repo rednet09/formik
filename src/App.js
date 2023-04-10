@@ -36,6 +36,14 @@ function App() {
           <label>Date: </label>
           <Field name="date" type="date" />
           <br />
+          <label>standard: </label>
+
+          <Field name="std" as="select">
+            <option>6 th</option>
+            <option>7 th</option>
+            <option>8 th</option>
+          </Field>
+          <br />
           <button type="submit">submit</button>
         </Form>
       </Formik>
