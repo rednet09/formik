@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <Formik
         initialValues={{
-          name: "enter your name ",
+          name: " ",
           phone: "enter your phone",
           password: "",
           gender: "",
@@ -17,11 +17,11 @@ function App() {
       >
         <Form>
           <label>name: </label>
-          <Field name="name" type="text" />
+          <Field name="name" type="text" placeholder="enter your name" />
           <br />
 
           <label>number: </label>
-          <Field name="phone" type="number" />
+          <Field name="phone" type="number" placeholder="enter your number" />
           <br />
           <label>password: </label>
           <Field name="password" type="password" />
